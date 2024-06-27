@@ -8,6 +8,10 @@ This script synchronizes the contents of a source directory with a replica direc
 - Removes files from replica that do not exist in the source.
 - Supports nested subdirectories.
 - Logs all operations to a specified log file.
+- If the source dir does not exist, it raises an error.
+- If the replica dir does not exist, it creates it.
+- The script will synchronize source and replica based on the defined synch interval
+- To stop the script use keyboard interrupt "CTRL+C"
 
 ## Requirements
 
