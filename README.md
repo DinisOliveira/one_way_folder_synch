@@ -12,7 +12,14 @@ This script synchronizes the contents of a source directory with a replica direc
 ## Requirements
 
 - Python 3.x
-
+  
+## Libraries
+os
+hashlib
+shutil
+logging
+argparse
+time
 
 ### Command-Line Arguments
 
