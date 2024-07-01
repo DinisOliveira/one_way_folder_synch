@@ -18,12 +18,12 @@ This script synchronizes the contents of a source directory with a replica direc
 - Python 3.x
   
 ## Libraries
-os
-hashlib
-shutil
-logging
-argparse
-time
+-os
+-hashlib
+-shutil
+-logging
+-argparse
+-time
 
 ### Command-Line Arguments
 
